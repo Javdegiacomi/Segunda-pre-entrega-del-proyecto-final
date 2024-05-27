@@ -1,0 +1,146 @@
+/* Estilos para el título */
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titulo h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: linear-gradient(to right, #292929, #333333);
+    padding: 20px 40px;
+    border-radius: 30px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+
+.titulo h1:hover {
+    background: linear-gradient(to right, #1f1f1f, #292929);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Estilos para la imagen */
+.imagen-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imagen-container img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    border: 5px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos específicos para el formulario de contacto */
+.formulario-container {
+    text-align: center;
+}
+
+.formulario-container form {
+    display: inline-block;
+    background-color: #333; /* Fondo negro */
+    padding: 20px;
+    border: 2px solid #666; /* Borde gris oscuro */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-bottom: 20px;
+}
+
+.formulario-container label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff; /* Texto blanco */
+}
+
+.formulario-container input[type="text"],
+.formulario-container input[type="email"],
+.formulario-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px;
+}
+
+.formulario-container button {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.formulario-container button:hover {
+    background-color: #333; /* Cambio de color al pasar el ratón */
+}
+
+/* Media query para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .imagen-container,
+    .formulario-container {
+        width: 100%;
+    }
+}
